@@ -27,5 +27,6 @@ fun main() {
         2-> println(ilksayi - ikincisayi)
         3-> println(ilksayi * ikincisayi)
         4-> println(ilksayi / ikincisayi)
+        else -> println("Böyle bir sayı yok.")
     }
 }
