@@ -2,7 +2,7 @@ package com.example.standartprogramlamayapilari
 
 import java.util.*
 
-fun main(){
+fun main() {
 
     val girdi = Scanner(System.`in`)
 
@@ -13,7 +13,7 @@ fun main(){
 
     println("Seçiminiz: $secim")
 
-    if (secim == 1){
+    if (secim == 1) {
 
         println("Kısa Kenarı Girin")
         var kisaKenar = girdi.nextInt()
@@ -36,13 +36,9 @@ fun main(){
 
         println("Çemberin Alanı: $cemberinAlani")
 
-    }
-    else
+    } else
 
         println("Lütfen 1 veya 2 numarayı seçiniz.")
-
-
-
 
 
 }
